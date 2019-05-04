@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="samples">
+      <UniqueIdentifier>{d8721b08-9dee-4f9d-8715-8e9f57accf7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="samples\dumpi\dumpi.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\echo\echofx.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\echo\echonul.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\echo\main.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\einst\edll1x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\einst\edll2x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\einst\edll3x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\einst\einst.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\excep\excep.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\excep\firstexc.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\findfunc\extend.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\findfunc\findfunc.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\findfunc\symtest.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\findfunc\target.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\impmunge\impmunge.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\member\member.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\opengl\ogldet.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\opengl\testogl.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\region\region.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\setdll\setdll.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\simple\simple.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\simple\sleep5.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\slept\dslept.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\slept\sleepbed.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\slept\sleepnew.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\slept\sleepold.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\slept\slept.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\slept\verify.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\syelog\sltest.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\syelog\sltestp.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\syelog\syelog.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\syelog\syelogd.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\talloc.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll1x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll2x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll3x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll4x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll5x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll6x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll7x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll8x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\talloc\tdll9x.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\traceapi\testapi.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\traceapi\trcapi.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\traceapi\_win32.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracebld\tracebld.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracebld\trcbld.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracelnk\trclnk.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracemem\trcmem.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracereg\trcreg.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\traceser\trcser.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracessl\trcssl.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tracetcp\trctcp.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tryman\size.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tryman\tryman.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\tryman\tstman.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\withdll\withdll.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\comeasy\comeasy.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\comeasy\wrotei.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\commem\commem.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\cping\cping.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\disas\disas.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\disas\unk.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\disas\x86.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\dtest\dtarge.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\dtest\dtest.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+    <ClCompile Include="samples\dumpe\dumpe.cpp">
+      <Filter>samples</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="samples\echo\echofx.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\findfunc\extend.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\findfunc\target.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\opengl\ogldet.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\simple\simple.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\slept\dslept.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\slept\slept.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\traceapi\trcapi.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tracebld\trcbld.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tracelnk\trclnk.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tracemem\trcmem.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tracereg\trcreg.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\traceser\trcser.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tracessl\trcssl.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tracetcp\trctcp.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\tryman\tstman.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\comeasy\wrotei.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="samples\dtest\dtarge.rc">
+      <Filter>samples</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="samples\excep\firstexc.h">
+      <Filter>samples</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\findfunc\target.h">
+      <Filter>samples</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\slept\slept.h">
+      <Filter>samples</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\syelog\syelog.h">
+      <Filter>samples</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\tracebld\tracebld.h">
+      <Filter>samples</Filter>
+    </ClInclude>
+    <ClInclude Include="samples\dtest\dtarge.h">
+      <Filter>samples</Filter>
+    </ClInclude>
+    <ClInclude Include="include\optionparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="samples\common.mak">
+      <Filter>samples</Filter>
+    </None>
+    <None Include="samples\Makefile">
+      <Filter>samples</Filter>
+    </None>
+    <None Include="samples\disas\arm.asm">
+      <Filter>samples</Filter>
+    </None>
+    <None Include="samples\disas\ia64.asm">
+      <Filter>samples</Filter>
+    </None>
+    <None Include="samples\disas\x64.asm">
+      <Filter>samples</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="samples\README.TXT">
+      <Filter>samples</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="samples\cping\iping.idl">
+      <Filter>samples</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>
