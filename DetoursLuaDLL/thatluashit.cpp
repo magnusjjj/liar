@@ -2,7 +2,7 @@
 
 #pragma warning(disable:4996)
 
-
+thatluashit* lua;
 
 thatluashit::thatluashit(const char* filename)
 {

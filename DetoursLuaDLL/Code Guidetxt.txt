@@ -1,0 +1,30 @@
+So, you looked at this and went 'uh buh.. wuh?'. Tuxie is here to help you. Tuxie likes you.
+
+This application creates a dll, injects it into another running process, and voilá,
+you can suddenly create lua scripts to redirect filesystem calls.
+
+The code is actually fairly simple.
+First up, we have main.cpp , as per usual. In it, DllMain is called when our DLL has been injected.
+In it, three things happen:
+- On load, it fires up lua, and reads the script for the first time.
+- Right after that, it starts to hook up the filesystem calls we want to redirect. Thats done with DetourAttach.
+  First parameter is the function we want to overwrite, second parameter is the function we want to replace it with.
+- Of course, there is some cleanup that may or may not be necessary should the dll be unloaded for some reason.
+
+But where do these functions we are overwriting reside? Well, thats twofold.
+In APIMove.h we see some funky definitions. All those first lines of code, that looks like function definitions
+but end with = and a system call name? Well, we are overriding the system calls. But we still need to be able to
+actually call the *real* system calls when we have done whatever change to the filenames we want to do.
+So we take a backup of the pointers to those syscalls, under new names.
+
+In APIMove.cpp we have the actual overrides of the syscalls.
+What you see first in those overrides, is that we aquire a *lock* for the lua interpreter. Not.. actually sure if it's neccessary,
+I have no clue if detours is actually multithreaded, but there it is.
+We then call a function to set the function name we want to call. Then we push whatever parameters we want the function to receive.
+We call the function, grab the response, and run the original syscall with the new filename.
+
+And finally, in thatluashit.h and .cpp we have.. uh. The lua bindings? Not much to say there. Pretty much just renames function to
+make code slightly more readable, as well as some conversions between microsofts unicode string herecy and utf8.
+
+
+And that's it!

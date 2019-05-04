@@ -21,6 +21,9 @@
     <ClCompile Include="thatluashit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="APIMove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="APIMove.h">
@@ -29,5 +32,8 @@
     <ClInclude Include="thatluashit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Code Guidetxt.txt" />
   </ItemGroup>
 </Project>

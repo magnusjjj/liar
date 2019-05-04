@@ -121,12 +121,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="APIMove.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="thatluashit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="APIMove.h" />
     <ClInclude Include="thatluashit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Code Guidetxt.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
